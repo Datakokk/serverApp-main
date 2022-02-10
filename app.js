@@ -16,7 +16,7 @@ const auth = require('./routes/auth');
 const customers = require('./routes/customers');
 const budgets = require('./routes/budgets');
 
-
+//It is a bad practice, an ".env" file should be used, this is only for academic purposes
 const mongoURI = 'mongodb+srv://m001-student:m001-mongodb-basics@sandbox.vemdc.mongodb.net/appDataBase?retryWrites=true&w=majority'; // en la ruta definimos la base de datos
 const options = {
     useNewUrlParser: true,
